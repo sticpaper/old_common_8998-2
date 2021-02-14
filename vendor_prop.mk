@@ -216,3 +216,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wlan
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# MiPush System
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.miui.ui.version.name=V12 \
+    ro.miui.ui.version.code=10 \
+    ro.miui.ui.version.code_time=1603036800
