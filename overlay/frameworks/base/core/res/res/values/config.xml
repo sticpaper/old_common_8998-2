@@ -464,4 +464,8 @@
 
     <!-- Enable window animation rounded corners -->
     <bool name="config_supportsRoundedCornersOnWindows">true</bool>
+
+    <!-- Android SQLite System -->
+    <string name="db_wal_sync_mode">OFF</string>
+    <string name="db_default_sync_mode">OFF</string>
 </resources>
